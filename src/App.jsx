@@ -2,6 +2,7 @@ import './App.css'
 import { Route, Routes } from 'react-router'
 import Layout from './components/Layout'
 import MainBoard from './components/MainBoard'
+import About from './components/About'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />} >
           <Route path="/" element={<MainBoard />} />
-          <Route path="/about" element={<div>About</div>} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
     </>
