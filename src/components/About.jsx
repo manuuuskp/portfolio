@@ -6,7 +6,7 @@ function About() {
     <>
       <section>
         <div className="flex justify-center">
-          <div className="flex w-7xl gap-x-16 mt-16 items-center">
+          <div className="flex flex-col md:!flex-row w-7xl gap-x-16 mt-16 items-center">
             <div
               className={`h-[560px] rounded-lg bg-contain bg-center basis-1/2`}
               style={{ backgroundImage: `url('/myprofile.jpg')` }}
@@ -48,11 +48,7 @@ function About() {
               <span className="font-bold">Info</span>
             </div>
             <div
-              className="grid 
-    grid-cols-2 
-    grid-rows-[auto_auto] 
-    gap-16
-    flex-1"
+              className="grid grid-cols-1 md:!grid-cols-2 grid-rows-[auto_auto] gap-16 flex-1"
             >
               <div className="flex flex-col gap-6 rounded-lg py-12 px-8 bg-[#fbfbfb]">
                 <span className="font-bold text-lg">⭐️ Skills</span>

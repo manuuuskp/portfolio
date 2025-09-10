@@ -27,7 +27,7 @@ function Footer() {
               </a>
             </span>
           </div>
-          <div className="flex justify-evenly text-[#A9A9A9] w-full">
+          <div className="flex flex-col items-center md:!flex-row justify-evenly text-[#A9A9A9] w-full">
             <span>© 2025 Manoj Prabhu</span>
             <div className="flex gap-4">
               <a className="text-[#637CEC]" href="/about">

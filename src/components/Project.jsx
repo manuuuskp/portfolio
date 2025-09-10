@@ -9,10 +9,10 @@ function Project({
   return (
     <article>
       <div className="flex justify-center my-10">
-        <div className="flex w-7xl gap-x-16">
+        <div className="flex flex-col md:!flex-row max-w-7xl gap-x-16">
           <div
             style={{ backgroundImage: `url(${logo})` }}
-            className={`min-h-[400px] columns-1 
+            className={`md:!min-h-[400px] min-h-[150px] columns-1 
   p-4 
   rounded-2xl 
   bg-contain 
@@ -39,7 +39,7 @@ function Project({
               {responsibilities}
             </span>
             <span className="text-[#747474]">{role}</span>
-            <div className="flex gap-2 mt-3">
+            <div className="flex flex-wrap gap-2 mt-3">
               {techStack.map((tech) => (
                 <div key={tech}>
                   <span

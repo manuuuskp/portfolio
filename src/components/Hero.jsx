@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section>
       <div className="flex justify-center">
-        <div className="flex justify-center items-center min-h-[75vh] rounded-2xl bg-[#141414] my-16 gradient-bg w-7xl">
+        <div className="flex justify-center items-center min-h-[75vh] rounded-2xl bg-[#141414] my-16 gradient-bg w-full md:!w-7xl">
           <div className="text-black p-5 w-[720px] flex flex-col gap-5">
             <span className="font-bold">Hey, I’m Manoj Prabhu, 🖖</span>
             <span className="text-[15px]">

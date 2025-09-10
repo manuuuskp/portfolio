@@ -3,7 +3,7 @@ import { Link } from "react-router";
 function NavBar() {
   return (
     <div className="flex justify-center">
-      <div className="navbar pt-5 mt-3 px-0 w-7xl">
+      <div className="navbar pt-5 mt-3 px-0 max-w-7xl flex !flex-col md:!flex-row">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-xl px-0">Manoj Prabhu</Link>
         </div>
